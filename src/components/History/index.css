@@ -1,0 +1,28 @@
+.history{
+    margin-top: 50px;
+    width: 80%;
+}
+.history__heading{
+color: yellow;
+font-size: 27px;
+}
+.history__text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.history__para{
+    line-height: 2;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.history_button > button{
+    border: none;
+    width: 150px;
+    padding: 19px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 10px;
+    background-color: #8CB560;
+}

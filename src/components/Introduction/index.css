@@ -1,0 +1,35 @@
+.introduction{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+
+.introduction__right{
+    margin-left: 10px;
+    width: 300px;
+}
+.introduction__right>div:first-child{
+    font-size: 20px;
+    color: yellow;
+}
+.introduction__right > div:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+.introduction__right > div:nth-child(3){
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 2;
+}
+.introduction__button > button{
+    border: none;
+    width: 150px;
+    padding: 19px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 10px;
+    background-color: #8CB560;
+}

@@ -1,0 +1,11 @@
+
+.navbar__links{
+    font-size: 14px;
+} 
+.active{
+    font-weight: bold;
+    color: black !important;
+}
+.navbar__linkCart > img{
+    padding-bottom: 2px !important;
+}

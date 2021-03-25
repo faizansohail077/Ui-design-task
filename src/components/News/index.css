@@ -1,0 +1,14 @@
+.news{
+    text-align: center;
+}
+.news > p:first-child{
+    color: yellow;
+    font-size: 29px;
+}
+.news > p:nth-child(2){
+    font-size: 39px;
+    font-weight: bold;
+}
+.read__more{
+    color: yellow !important;
+}

@@ -1,0 +1,163 @@
+.session{
+    display: flex;
+    justify-content: space-between;
+}
+.session__left{
+    width: 50%;
+    padding-top: 50px;
+}
+.session__leftTop{
+    font-weight: bold;
+    color: #2c3722;
+    padding:50px 50px 0px 0px;
+    font-size: 3rem;
+}
+.session__leftMiddle{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 100px;
+    line-height: 2;
+}
+.session__leftBottom {
+    display: flex;
+}
+.session__leftBottom >div> input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.session__leftBottom >div>input::placeholder{
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.session__leftBottom > div:nth-child(2) >  button{
+    border: none;
+    width: 100px;
+    padding: 19px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 10px;
+    background-color: #8CB560;
+}
+.session__right{
+    display: flex;
+    position: relative;
+}
+.session__right > img{
+    width: 550px;
+    position: absolute;
+    right: -90px;
+  
+}
+@media only screen and (max-width: 1200px) {
+
+.session__left{
+    width: 70%;
+    padding-top: 50px;
+}
+.session__leftTop{
+    padding: 0px;
+    font-size: 2rem;
+}
+.session__right > img{
+    width: 390px;
+    position: relative;
+}    .session__leftBottom > div > input{
+    width: 150px;
+}.session__leftMiddle{
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width: 992px) {
+  
+    .session__right > img{
+        width: 290px;
+        position: relative;
+    }.session__left{
+        width: 50%;
+        padding-top: 50px;
+    }
+    .session__leftTop{
+        padding: 0px;
+        font-size: 1.5rem;
+    }.session__leftMiddle{
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-right: 80px;
+        line-height: 2;
+    }
+    .session__leftBottom > div > input{
+     
+        width: 250px;
+    }.session__leftBottom > input::placeholder{
+        padding: 3px !important;
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.3);
+    }.session__leftBottom > button{
+        border: none;
+        width: 100px;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        margin-left: 10px;
+        font-size: 10px;
+        background-color: #8CB560;
+    }  .session__right > img{
+        width: 200px;
+        position: relative;
+        bottom: 30px;
+        right: 30px;
+    }
+}
+@media only screen and (max-width: 768px) { 
+    .session__left{
+        width: 40%;
+        padding-top: 50px;
+    }.session__leftTop{
+        font-weight: bold;
+        color: #2c3722;
+        padding:0px;
+        font-size: 1.3rem;
+    }
+    .session__leftMiddle{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+        width: 100%;        
+        margin-right: 50px;
+        line-height: 2;
+    }
+    .session__leftBottom > div > input{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .session{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+} .session__right > img{
+    position: static;
+}
+.session__left{
+    width: 80%;
+}
+
+.session__leftMiddle{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 100%;        
+    /* margin-right: 50px; */
+    line-height: 2;
+}
+.session__right {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+} .session__leftBottom > div > input{
+    width: 180px;
+}
+}
