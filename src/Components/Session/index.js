@@ -3,7 +3,7 @@ import './index.css'
 import pizza from '../../images/2.svg'
 const Session = () => {
     return (
-        <div className="session">
+        <div className="session d-flex ">
             <div className="session__left">
                 <div className="session__leftTop">
                     <p>All In Good Taste Food With Figo .</p>

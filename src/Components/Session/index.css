@@ -33,7 +33,7 @@
 }
 .session__leftBottom > div:nth-child(2) >  button{
     border: none;
-    width: 100px;
+    width: 130px;
     padding: 19px;
     color: white;
     font-weight: bold;
@@ -52,8 +52,11 @@
     right: -90px;
   
 }
-@media only screen and (max-width: 1200px) {
-
+@media only screen and (max-width: 1300px) {
+.session{
+    display: flex;
+    justify-content:center;
+}
 .session__left{
     width: 70%;
     padding-top: 50px;
@@ -63,7 +66,7 @@
     font-size: 2rem;
 }
 .session__right > img{
-    width: 390px;
+    width: 250px;
     position: relative;
 }    .session__leftBottom > div > input{
     width: 150px;
@@ -72,7 +75,10 @@
 }
 }
 @media only screen and (max-width: 992px) {
-  
+    .session{
+        display: flex;
+        justify-content:center;
+    }
     .session__right > img{
         width: 290px;
         position: relative;
@@ -114,6 +120,10 @@
     }
 }
 @media only screen and (max-width: 768px) { 
+    .session{
+        display: flex;
+        justify-content:center;
+    }
     .session__left{
         width: 40%;
         padding-top: 50px;
@@ -138,7 +148,8 @@
 @media only screen and (max-width: 600px) {
     .session{
         flex-wrap: wrap;
-        justify-content: flex-start;
+        display: flex;
+            justify-content:center;
 } .session__right > img{
     position: static;
 }

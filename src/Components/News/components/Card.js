@@ -7,7 +7,7 @@ const Card = ({ title, para, image }) => {
 
             <div class="card-body">
                 <h5 class="card-title">{title}</h5>
-                <p class="card-text">{para}</p>
+                <p class="card-text2">{para}</p>
                 <a href="#" class="read__more">ReadMore</a>
             </div>
         </div>

@@ -1,6 +1,9 @@
 .history{
     margin-top: 50px;
-    width: 80%;
+}
+.history__left{
+    border: 1px solid;
+    width:100px ;
 }
 .history__heading{
 color: yellow;
@@ -13,6 +16,7 @@ font-size: 27px;
 }
 .history__para{
     line-height: 2;
+    /* margin-right: 100px; */
     font-size: 15px;
     color: rgba(0, 0, 0, 0.4);
 }
@@ -25,4 +29,22 @@ font-size: 27px;
     border-radius: 3px;
     font-size: 10px;
     background-color: #8CB560;
+}
+@media only screen and (max-width:1100px){
+   
+        .history__bottom > img{
+            margin-top: 10px;
+            height:300px;
+            width:400px
+        }
+}
+@media only screen and (max-width:650px){
+    .history{
+    padding: 19px
+    }
+    .history__bottom > img{
+        margin-top: 10px;
+        height:300px;
+        width:300px
+    }
 }

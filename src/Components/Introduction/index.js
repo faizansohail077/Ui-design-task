@@ -1,11 +1,16 @@
 import React from 'react'
 import './index.css'
 import image from '../../images/1.svg'
+import leaf from '../../images/leaf1'
+
 const Introduction = () => {
     return (
-        <div className="container introduction row">
-            <div className="introduction__left">
-                <img src={image} />
+        <div className="container introduction  d-flex justify-content-center row">
+            <div className="introduction__left align-self-end">
+                <img height={'50px'} src={leaf} />
+            </div>
+            <div className="introduction__middle">
+                <img height={'400px'} src={image} />
             </div>
             <div className="introduction__right">
                 <div>
